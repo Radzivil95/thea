@@ -1,0 +1,10 @@
+.header {
+  min-height: 1080px;
+  background: url('../images/promo-bg.webp') center center/cover no-repeat;
+  &__inner {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

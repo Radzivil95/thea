@@ -1,0 +1,25 @@
+.logo-top {
+  cursor: pointer;
+}
+
+.nav {
+  &__list {
+    display: flex;
+    gap: 45px;
+  }
+  &__list-item {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    line-height: 130%;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.phone {
+  color: #FFF;
+  text-align: right;
+  font-size: 32px;
+  line-height: 130%;
+}
