@@ -143,7 +143,7 @@ a {
 }
 
 .header {
-    min-height: 1080px;
+    min-height: 960px;
     background: url("../images/promo-bg.webp") center center/cover no-repeat;
 }
 
@@ -370,4 +370,48 @@ a {
 .other-zones__item-images {
     display: flex;
     gap: 24px;
+}
+
+.equipment {
+    min-height: 960px;
+    background: url("../images/equipment/equipment-bg.webp") center center/cover no-repeat;
+    color: var(--white);
+    padding-top: 10px;
+}
+
+.equipment__title {
+    font-size: 148px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 2.96px;
+    text-transform: uppercase;
+}
+
+.equipment__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.equipment__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.equipment__list--first {
+    margin-top: 10px;
+}
+
+.equipment__list--second {
+    margin-top: 280px;
+}
+
+.equipment__list--third {
+    margin-top: 500px;
+}
+
+.equipment__list-item {
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
 }
