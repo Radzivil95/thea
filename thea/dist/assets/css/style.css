@@ -625,3 +625,66 @@ a {
     width: 48px;
     height: 48px;
 }
+
+.team {
+    padding-bottom: 80px;
+}
+
+.team__title {
+    font-size: 148px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 2.96px;
+    text-transform: uppercase;
+}
+
+.team__video-img {
+    width: 489px;
+    height: 881px;
+    background: url("../images/team/video.webp") center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.team__inner {
+    display: flex;
+    gap: 115px;
+}
+
+.team__video-text {
+    padding-top: 17px;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+
+.team__list {
+    max-width: 900px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+}
+
+.team__list-inner {
+    display: flex;
+    gap: 34px;
+}
+
+.team__item-name {
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+
+.team__item-position {
+    color: #888;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.32px;
+}
