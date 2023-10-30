@@ -1,0 +1,21 @@
+.promo {
+  padding-bottom: 180px;
+  &__title-inner {
+    display: flex;
+    padding-bottom: 30px;
+  }
+  &__title {
+    font-size: 148px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 2.96px;
+    text-transform: uppercase;
+  }
+  &__title-descr {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.72px;
+  }
+}
