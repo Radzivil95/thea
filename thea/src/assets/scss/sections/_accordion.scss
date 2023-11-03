@@ -1,7 +1,9 @@
 .accordion {
-  padding-top: 115px;
-  display: flex;
-  justify-content: space-between;
+  &__wrapper {
+    padding-top: 115px;
+    display: flex;
+    justify-content: space-between;
+  }
   &__text-title {
     font-size: 36px;
     line-height: 130%;
@@ -15,16 +17,10 @@
   &__item {
     display: flex;
     border-bottom: 1px solid #888;
-    justify-content: space-between;
     min-width: 901px;
     min-height: 200px;
     align-items: center;
     cursor: pointer;
-    &:first-child {
-      .accordion__item-text {
-        margin-left: 30px;
-      }
-    }
   }
   &__item-num {
     color: #888;
@@ -33,6 +29,10 @@
     line-height: 130%;
     letter-spacing: 3.42px;
     text-transform: uppercase;
+    min-width: 220px;
+  }
+  &__item-text {
+    margin-left: 35px;
   }
   &__item-title {
     font-size: 20px;
@@ -59,5 +59,37 @@
   &__item-plus {
     width: 48px;
     height: 48px;
+  }
+  &__item-long {
+    display: flex;
+    border-bottom: 1px solid var(--general-dark);
+    align-items: center;
+    cursor: pointer;
+    &:first-child{
+      border-top: 1px solid var(--general-dark);
+      margin-top: 120px;
+    }
+  }
+  &__num-small {
+    color: #888;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 130%; /* 88.4px */
+    letter-spacing: 1.36px;
+    text-transform: uppercase;
+    min-width: 110px;
+  }
+  &__title-long {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%; /* 31.2px */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    max-width: 650px;
+    margin-left: 520px;
+  }
+  &__item-plus {
+    margin-left: auto;
+    margin-right: 0em;
   }
 }
